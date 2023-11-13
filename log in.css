@@ -1,0 +1,102 @@
+
+/* * {
+    box-sizing: border-box;
+} */
+
+
+
+body {
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    background-color: rgb(222, 209, 209);
+    height: 360px;
+    width: 400px;
+    padding: 20px;
+    margin: 190px 500px 0px;
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px -50px 36px -28px inset;
+}
+
+
+.form3 a {
+    text-decoration: underline;
+    color: black;
+}
+
+
+
+.label input["checkbox"] {
+    width: 20px;
+    height: 20px;
+
+    cursor: pointer;
+
+
+}
+
+
+.btn {
+    cursor: pointer;
+
+    background-color: rgb(233, 228, 228);
+    padding: 7px 7px;
+    margin-bottom: 15px;
+    width: 170px;
+    border: none;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+.btn:hover {
+    box-shadow: 5px 5px 5px black;
+}
+
+
+
+
+
+
+.footer a {
+
+    background-color: white;
+    color: rgb(248, 49, 115);
+    padding: 4px 18px;
+    margin-right: 10px;
+    text-decoration: none;
+    cursor: pointer;
+
+}
+
+
+ /* Mobile screen*/
+
+
+ @media (max-width:576px) {
+
+    body{
+        background-color: #cfd221;
+    }
+  }
+
+  /*Tablet screen*/
+
+ 
+  @media (min-width:577px) and (max-width:1024px){
+
+    body{
+       background-color: pink;
+    }
+  }
+  
+/*Laptop screen*/
+
+  @media (min-width:1025px){
+
+    body{
+        
+    }
+
+  }

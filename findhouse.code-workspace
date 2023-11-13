@@ -1,0 +1,55 @@
+{
+	"folders": [
+		{
+			"path": "../1st class"
+		},
+		{
+			"path": "../2nd class"
+		},
+		{
+			"path": "../3rd class"
+		},
+		{
+			"path": "../4th cls"
+		},
+		{
+			"path": "../5th class"
+		},
+		{
+			"path": "../6th class"
+		},
+		{
+			"path": "../7th class"
+		},
+		{
+			"path": "../8th cls"
+		},
+		{
+			"path": "../aside page"
+		},
+		{
+			"path": "../blogsite (institute)"
+		},
+		{
+			"path": "../dom"
+		},
+		{
+			"path": "../e-learning page"
+		},
+		{
+			"path": "."
+		},
+		{
+			"path": "../project"
+		},
+		{
+			"path": "../project pink"
+		},
+		{
+			"path": "../Won portfolio"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "FindHouse"
+	}
+}

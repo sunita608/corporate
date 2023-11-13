@@ -1,0 +1,434 @@
+span {
+    color: crimson;
+    font-size: 20px;
+}
+
+.why i {
+    color: ;
+}
+
+/* .navbar {
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+
+}  */
+
+.navbar .container-fluid{
+
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+
+
+}
+
+
+.nav-item a {
+    color: black;
+    font-size: 20px;
+
+}
+
+
+
+
+
+.cities {
+    margin-top: 20px;
+    text-align: center;
+
+}
+
+
+
+#hero {
+    background-image: url(https://images.ctfassets.net/02vwvgr6spsr/2PMGskSmpt0rRbkxY1PYFl/d4be3bdcdd17376fec7b3c44660eef5b/zoopla-house-price-index-january-2023.jpg);
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+
+#hero .content {
+    color: whitesmoke;
+    text-align: center;
+    position: absolute;
+    left: 30%;
+    top: 40%;
+    transform: translate(-50%, -50%);
+}
+
+#hero .content h1 {
+    font-size: 60px;
+    color: tomato;
+    font-family: 'Courier New', Courier, monospace;
+    margin-left: %;
+
+}
+
+#hero .overlay {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: black;
+    opacity: 0.7;
+}
+
+
+
+.bttn {
+
+    margin-bottom: 10%;
+    word-spacing: 20px;
+}
+
+.searchbar {
+    margin-top: -30px;
+
+}
+
+.head {
+    margin-top: 60px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.img {
+
+    height: 100%;
+
+}
+
+.card {
+    padding: 5px;
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+    margin: 20px; 
+
+}
+
+.col{
+
+
+
+}
+
+
+
+
+
+
+.logo:hover {
+
+    background-color: white;
+    padding: 5px;
+}
+
+
+/* APARTMENT SECTION */
+
+.card-img-top {
+
+cursor: pointer;
+
+}
+
+.bttn2 {
+
+    margin-top: -100%;
+    padding-left: 10px;
+}
+/* 
+.iconn {
+    margin-top: 50%;
+    text-align: right;
+    padding-right: 5px;
+    color: white;
+    font-size: 20px;
+}  */
+
+
+
+/* FEACHER SECTION */
+
+
+.cursor {
+
+    cursor: pointer;
+
+
+}
+
+.cursor:hover {
+    color: crimson;
+}
+
+
+
+/* CITIES */
+
+
+.card {
+
+    width: 100%;
+}
+
+.cities .card-title {
+    color: yellow;
+
+}
+
+.card-text2 {
+    color: white;
+    font-size: 30px;
+}
+
+.top {
+
+    margin-top: 38%;
+}
+
+
+/* WHY SECTION HERE */
+
+.why .card-title {
+
+    color: gray;
+}
+
+.why .card-text {
+    color: gray;
+
+}
+
+.why h6 {
+    text-align: center;
+}
+
+.why .icon {
+    height: 100px;
+    width: 100px;
+    margin: 0 auto;
+    margin-top: 1rem;
+    background: pink;
+
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+.why .icon:hover {
+    background: palevioletred;
+    color: ;
+}
+
+.why .card:hover{
+
+box-shadow: rgba(250, 39, 39, 0.24) 0px 3px 8px;
+}
+
+/* 
+ARTICLE SECTION HERE */
+
+.article .card-title{
+
+    color: crimson;
+
+}
+
+.partner .card-title{
+color: slateblue;
+
+}
+
+
+.partner .card-text{
+color: slateblue;
+
+}
+
+.agent{
+background-color: pink ;
+/* margin-left: 20px;
+margin-right:20px ; */
+padding: 10px;
+}
+
+.agent .btn{
+ color:;
+   
+}
+
+
+.footer {
+    box-sizing: border-box;
+    display: flex;
+    background-color: rgb(19, 19, 60);
+        padding: 20px 0px;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    /* margin-left: 20px;
+    margin-right: 20px; */
+    margin-top: 20px;
+    color: white;
+  
+
+}
+
+.last1 {
+    width: 450px;
+    margin: 10px;
+    box-sizing: border-box;
+
+
+}
+
+.last2 {
+    width: 450px;
+    margin: 10px;
+    box-sizing: border-box;
+
+
+}
+
+.last3 {
+
+    width: 450px;
+    margin: 10px;
+    box-sizing: border-box;
+
+
+
+}
+
+.last4 {
+
+    width: 450px;
+    margin: 10px;
+    box-sizing: border-box;
+
+
+}
+
+.last4 .icon{
+
+    font-size: 30px;
+ color: palevioletred;
+}
+
+ .icon:hover{
+
+color: white;
+
+}
+
+
+/* FLEXBOX BLOG CARD */
+
+@import url(https://fonts.googleapis.com/css?family=Oswald|Roboto|Slabo+27px);
+@import 'bourbon';
+
+body{
+	background:#ececec;
+}
+
+h1{
+	font-size:32px;
+	margin-top:30px;
+	font-family: 'Oswald', sans-serif;	
+	text-align:center;
+}
+.blog-wrapper{
+	padding:15px;
+	display:flex;
+	flex-direction:row;
+	justify-content:center;
+	flex-wrap:wrap;
+	.blog-card{
+		@include transition(.3s);
+		max-width:300px;
+		margin:15px;
+		background:#fff;
+		border:1px solid #CB6074;
+		text-align:center;
+		cursor:pointer;
+		&:hover{
+			box-shadow: 0 3px 10px 0 rgba(0,0,0,.1);
+			.card-img{
+				img{
+					opacity:0.8;
+				}
+			}
+		}
+		.card-img{
+			position:relative;
+			text-align:center;
+			background:#CB6074;
+			img{
+				@include transition(.3s);
+				
+				border-bottom:4px solid #CB6074;
+			}
+			&:before{
+				content:'';
+				position: absolute;
+				bottom: -8px;
+				left: 50%;
+				margin-left: -10px;
+				width: 0;
+				height: 0;
+				border-top: solid 10px #CB6074;
+				border-left: solid 10px transparent;
+				border-right: solid 10px transparent;
+			}
+			h1{
+				position:absolute;
+				margin:0;
+				font-size:42px;
+				bottom:15px;
+				width:100%;
+				color:#fff;
+				font-family: 'Slabo 27px', serif;
+			}
+		}
+		.card-details{
+			margin-top:30px;
+			font-family: 'Roboto', sans-serif;
+			color:#3C3C3C;
+			span{		
+				padding:0 30px;
+				i{
+					margin-right:5px;
+				}
+				
+			}
+		}
+		.card-text{
+			padding:30px 15px;
+			font-family: 'Roboto', sans-serif;
+			line-height:22px;
+		}
+		.read-more{
+			@include transition(.3s);
+			display:inline-block;
+			width:auto;
+			text-align:center;
+			text-transform:uppercase;
+			background:#CB6074;
+			color:#fff;
+			padding:15px;
+			margin-bottom:30px;
+			font-family: 'Oswald', sans-serif;
+			border-radius: 9px;
+		}
+	}
+}
+
+
+
+
+
+

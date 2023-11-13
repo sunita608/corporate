@@ -1,0 +1,722 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+  <link rel="stylesheet" href="FH.css">
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+
+  <!-- TYPED JS LINK -->
+  <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+
+  <!-- COUNTERUp2 JS LINK -->
+  <script src="https://unpkg.com/counterup2@2.0.2/dist/index.js">	</script>
+
+  <!-- AOS LIBRARY LINK CSS -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+  <!-- AOS LIBRARY LINK JS -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+  <!-- SWIPER CSS LINK -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+
+  <title>FINDHOUSE</title>
+</head>
+
+<body>
+
+
+  <!--NAV SECTION START -->
+
+  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">
+        <span><i class="bi bi-house-heart-fill"></i></span><b>FindHome</b></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active  aria-current=" page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Listing</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="#">Page</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="blog.html">Blog</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="bgcntct.html">Contact</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="log in.html">
+              <i class="bi bi-person-lines-fill"></i>Login/Register</a>
+          </li>
+
+
+
+
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-info" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+
+  <!-- NAV SECTION END -->
+
+
+  <!-- MAIN SECTION START  -->
+
+  <main>
+
+
+
+
+
+
+    <!-- HERo SECTION HERE -->
+
+    <div id="hero">
+      <div class="overlay">
+
+      </div>
+      <div class="content">
+        <h1> <b>Find Your Dream Home</b> </h1>
+        <h4><b>From as low as $10 per day with limited time offer discounts.</b></h4>
+
+
+        <div class="bttn">
+
+          <button type="button" class="btn btn-danger btn-lg">Buy House</button>
+          <button type="button" class="btn  btn-warning btn-lg">Rent House</button>
+
+        </div>
+
+        <!-- SEARCHBAR HERE -->
+
+        <div class="searchbar">
+          <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">
+                <input class="form-control me-2" type="search" placeholder="Enter Keyword..." aria-label="Search">
+              </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#Enter Keyword..."
+                aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarScroll">
+                <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">
+                      <input class="form-control me-2 " type="search" placeholder="Location" aria-label="Search">
+
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#"> <span class="icon"><i class="bi bi-geo-alt-fill"></i></span></a>
+                  </li>
+
+
+                </ul>
+                <form class="d-flex" role="search">
+                  <button type="button" class="btn btn-danger btn-lg">Search</button>
+              </div>
+            </div>
+          </nav>
+        </div>
+
+
+      </div>
+
+
+
+
+
+    </div>
+
+    <!-- HERO SECTION END HERE -->
+
+    <!-- PROPARTY BLOG STARTS HERE!
+     -->
+    <h1><b>Property Blogs</b></h1>
+
+    <div class="blog-wrapper">
+      <div class="blog-card">
+        <div class="card-img"><img
+            src="https://images.unsplash.com/photo-1518235506717-e1ed3306a89b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1650&q=80"
+            height="300px" width="100%">
+          <h1>New York</h1>
+        </div>
+        <div class="card-details"><span><i class="fa fa-calendar"></i>AUG 4</span><span><i
+              class="fa fa-heart"></i>102</span></div>
+        <div class="card-text">
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Si verbum sequimur, primum longius verbum
+            praepositum quam bonum.</p>
+        </div>
+        <div class="read-more">Read More</div>
+      </div>
+      <div class="blog-card">
+        <div class="card-img"><img
+            src="https://images.unsplash.com/photo-1445368794737-0cf251429ca0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1567&q=80"
+            height="300px" width="100%">
+          <h1>San Francisco</h1>
+        </div>
+        <div class="card-details"><span><i class="fa fa-calendar"></i>AUG 1</span><span><i
+              class="fa fa-heart"></i>265</span></div>
+        <div class="card-text">
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Si verbum sequimur, primum longius verbum
+            praepositum quam bonum.</p>
+        </div>
+        <div class="read-more">Read More</div>
+      </div>
+    </div>
+
+
+    <!-- PROPARTY BLOG end HERE! -->
+
+
+
+    <!--  Featured Properties section start here -->
+
+    <div class="head">
+      <h1><b>Featured Properties</b></h1>
+      <h6><b>Handpicked properties by our team.</b></h6>
+
+    </div>
+
+
+
+
+
+    <section id="Apartment" class=" Apartment py-5"></section>
+
+
+
+    <div class="container">
+
+
+      <div class="flex-item">
+
+        <div class="card-group">
+          <div class="row g-4">
+            <div class="col-12 col-sm-6 col-lg-4">
+              <div class="card">
+                <img
+                  src="https://media.designcafe.com/wp-content/uploads/2022/07/15170350/luxury-home-design-on-budget.jpg"
+                  height="300px" width="100%" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h6 class="card-title">Apartment</h6>
+                  <h4 class="cursor"><a href=""></a>Luxury
+                    Family Home</h4>
+                  <p class="card-text"><span><i class="bi bi-geo-alt"></i></span>
+                    1421 San Pedro T, Los Angeles, CA 900015 <br>
+                    Beds: 1 , Baths: 1 , SqFt: 8280
+                  </p>
+                </div>
+                <div class="card-footer">
+
+                  <small class="text-body-secondary ">Sunita Sarker 5 months ago</small>
+
+            </div>
+<!-- 
+            <div class="bttn2">
+              <button type="button" class="btn btn-secondary">Featured</button>
+  
+              <button type="button" class="btn btn-danger">For Sell</button>
+            </div>  -->
+<!--   
+             <div class="iconn">
+              <b>$11000/mo</b>
+              <span class="logo"><i class="bi bi-arrow-left-right"></i></span>
+              <span class="logo"><i class="bi bi-heart-fill"></i></span>
+            </div> -->
+
+              </div>
+ 
+              
+            </div>
+
+
+
+            <div class="col-12 col-sm-6 col-lg-4">
+
+              <div class="card">
+                <img
+                  src="https://static.asianpaints.com/content/dam/asianpaintsbeautifulhomes/home-decor-advice/design-and-style/nine-small-house-interior-design-hacks/two-seater-couches-and-wall-mounts-design-hack.jpg"
+                  height="300px" width="100%" class="card-img-top" alt="...">
+
+
+
+                <div class="card-body">
+                  <h6 class="card-title">Apartment</h6>
+                  <h4 class="cursor"><a href=""></a>Renovated Apartment</h4>
+                  <p class="card-text"><span><i class="bi bi-geo-alt"></i></span>
+                    1421 San Pedro T, Los Angeles, CA 900015 <br>
+                    Beds: 1 , Baths: 1 , SqFt: 8280
+                  </p>
+                </div>
+                <div class="card-footer">
+
+                  <small class="text-body-secondary ">Sunita Sarker 5 months ago</small>
+                </div>
+
+                <!-- <div class="bttn2">
+              <button type="button" class="btn btn-secondary">Featured</button>
+  
+              <button type="button" class="btn btn-danger">For Sell</button>
+            </div>
+  
+            <div class="iconn">
+              <b>$11000/mo</b>
+              <span class="logo"><i class="bi bi-arrow-left-right"></i></span>
+              <span class="logo"><i class="bi bi-heart-fill"></i></span>
+            </div>
+  
+   -->
+              </div>
+            </div>
+
+
+
+            <div class="col-12 col-sm-6 col-lg-4">
+              <div class="card">
+                <img
+                  src="https://www.linwoodhomes.com/cdn-cgi/image/quality=30/https://dm47sa8vny7s2.cloudfront.net/designs/antler-trail/thumbnail/thumb-antlertrail-600x587.jpg"
+                  height="300px" width="100%" class="card-img-top" alt="...">
+
+
+
+                <div class="card-body">
+                  <h6 class="card-title">Apartment</h6>
+                  <h4 class="cursor"><a href=""></a>Single
+                    Family Home</h4>
+                  <p class="card-text"><span><i class="bi bi-geo-alt"></i></span>
+                    1421 San Pedro T, Los Angeles, CA 900015 <br>
+                    Beds: 1 , Baths: 1 , SqFt: 8280
+                  </p>
+                </div>
+                <div class="card-footer">
+
+                  <small class="text-body-secondary ">Sunita Sarker 5 months ago</small>
+                </div>
+
+                <!-- <div class="bttn2">
+              <button type="button" class="btn btn-secondary">Featured</button>
+  
+              <button type="button" class="btn btn-danger">For Sell</button>
+            </div>
+  
+            <div class="iconn">
+              <b>$11000/mo</b>
+              <span class="logo"><i class="bi bi-arrow-left-right"></i></span>
+              <span class="logo"><i class="bi bi-heart-fill"></i></span>
+            </div>
+   -->
+
+              </div>
+
+
+            </div>
+
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+    </div>
+
+    <!-- Featured Properties section end here -->
+
+
+    <br><br><br><br>
+    <br> <br> <br>
+
+    <!-- Find Properties in These Cities starts here -->
+
+    <div class="cities">
+      <h1><b>Find Properties in These Cities</b></h1>
+      <h6><b>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</b></h6>
+
+    </div>
+
+    <section id="cities" class=" cities py-5">
+
+      <div class="container">
+        <h3 class="text-center"></h3>
+        <div class="row g-4 ">
+
+          <div class="row row-cols-1 row-cols-md-2 g-4">
+            <div class="col">
+              <div class="card">
+                <img src="https://i.insider.com/5d03aa8e6fc9201bc7002b43?width=1136&format=jpeg" class="card-img-top"
+                  alt="...">
+                <div class="card-img-overlay">
+                  <div class="top">
+                    <h1 class="card-title"><b>Florida</b></h1>
+                    <p class="card-text2"><b>20 Properties</b></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <img
+                  src="https://images.pexels.com/photos/169647/pexels-photo-169647.jpeg?cs=srgb&dl=pexels-peng-liu-169647.jpg&fm=jpg"
+                  class="card-img-top" alt="...">
+                <div class="card-img-overlay">
+                  <div class="top">
+                    <h1 class="card-title"><b>Miami</b></h1>
+                    <p class="card-text2"><b>34 Properties</b></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <img
+                  src="https://media.cntraveler.com/photos/5fc6818f3cfe1de2cab79372/master/pass/Amsterdam-GettyImages-840603854.jpg"
+                  class="card-img-top" alt="...">
+                <div class="card-img-overlay">
+                  <div class="top">
+                    <h1 class="card-title"><b>Los Angels</b></h1>
+                    <p class="card-text2"><b>87 Properties</b></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <img
+                  src="https://www.asme.org/getmedia/c0f66168-ccf7-4e9f-af7f-294ee1ba6bdb/top-10-growing-smart-cities_hero.jpg?width=920&height=720&ext=.jpg"
+                  class="card-img-top" alt="...">
+                <div class="card-img-overlay">
+                  <div class="top">
+                    <h1 class="card-title"><b>Italy</b></h1>
+                    <p class="card-text2"><b>51 Properties</b></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="card text-bg-dark">
+            <img
+              src="https://media.architecturaldigest.com/photos/58f918044f42bd463db36a3f/4:3/w_2663,h_1997,c_limit/1%20-%2010%20Greenest%20Cities%20in%20America%20in%202017.jpg"
+              class="card-img" height="600px" alt="...">
+            <div class="card-img-overlay">
+              <div class="top">
+                <h1 class="card-title"><b>New York</b></h1>
+                <p class="card-text2"><b>79 Properties</b></p>
+              </div>
+
+
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Find Properties in These Cities end here -->
+
+
+
+
+    <!-- Why Choose Us SECTION STARTS HERE -->
+
+    <section id="why" class=" why py-5">
+
+      <div class="container">
+        <h1 class="text-center"> <b>Why Choose Us</b></h1>
+        <h6><b>We provide full service at every step.</b></h6>
+
+        <div class="row g-4 ">
+
+          <div class="col-12 col-sm-6 col-lg-4">
+            <div class="card text-center">
+              <span class="icon"><i class="bi bi-person-arms-up" style="font-size: 3.5rem ;"></i></span>
+              <div class="card-body">
+                <h5 class="card-title"> <b>Trusted By Thousands</b></h5>
+                <p class="card-text">Aliquam dictum elit vitae mauris facilisis at dictum urna dignissim donec vel
+                  lectus vel felis.</p>
+
+              </div>
+            </div>
+          </div>
+
+          <div class="col-12 col-sm-6 col-lg-4">
+            <div class="card text-center">
+              <span class="icon"><i class="bi bi-house-gear-fill" style="font-size: 3.5rem;"></i></span>
+              <div class="card-body">
+                <h5 class="card-title"><b>Wide Renge Of Properties</b></h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the
+                  bulk of the card's content.</p>
+
+              </div>
+            </div>
+          </div>
+
+          <div class="col-12 col-sm-6 col-lg-4">
+            <div class="card text-center">
+              <span class="icon"><i class="bi bi-cash-coin" style="font-size: 3.5rem;"></i></span>
+              <div class="card-body">
+                <h5 class="card-title"><b>Financing Made Easy</b></h5>
+                <p class="card-text">Aliquam dictum elit vitae mauris facilisis at dictum urna dignissim donec vel
+                  lectus vel felis.</p>
+
+              </div>
+            </div>
+          </div>
+
+
+
+
+        </div>
+      </div>
+    </section>
+
+
+    <!-- Why Choose Us SECTION END HERE -->
+
+
+
+
+    <!-- Articles & Tips section starts here -->
+
+    <div class="head">
+      <h1><b> Articles & Tips</b></h1>
+      <h6><b>Handpicked properties by our team.</b></h6>
+
+    </div>
+
+    <section id="article" class=" article py-5">
+      <div class="container">
+        <div class="flex-item">
+          <div class="card-group">
+            <div class="card">
+              <img
+                src="https://www.bhg.com/thmb/dWsbtD6tMV7XataX123mXcl7uIY=/1943x0/filters:no_upscale():strip_icc()/tudor-style-home-exterior-lush-landscaping-628aa053-0b135bb1d98a4d01974289c7d2c70217.jpg"
+                class="card-img-top" height="300px" width="100%" alt="...">
+              <div class="card-body">
+                <h6 class="card-title">Constraction</h6>
+                <h4 class="cursor"><a href=""></a>Skills That You Can Learn In The Real Estate Market
+                </h4>
+                <p class="card-text">Sunita Sarker 7july2021
+                </p>
+              </div>
+            </div>
+            <div class="card">
+              <img
+                src="https://assets-news.housing.com/news/wp-content/uploads/2022/03/31010142/Luxury-house-design-Top-10-tips-to-add-luxury-to-your-house-FEATURE-compressed.jpg"
+                class="card-img-top" height="300px" width="100%" alt="...">
+              <div class="card-body">
+                <h6 class="card-title">Business</h6>
+                <h4 class="cursor"><a href=""></a>Bedroom Colors You will Never this Regret
+                </h4>
+                <p class="card-text">Sunita Sarker 7july2021
+
+                </p>
+              </div>
+            </div>
+            <div class="card">
+              <img
+                src="https://assets.architecturaldigest.in/photos/60083e76274aca243711c3a4/16:9/w_2560%2Cc_limit/ghaziabad-uttar-pradesh-homes-photos-1366x768.jpg"
+                class="card-img-top" height="300px" width="100%" alt="...">
+              <div class="card-body">
+                <h6 class="card-title ">Apartment</h6>
+                <h4 class="cursor"><a href=""></a>5 Essential Steps for Buying everyone Investment
+                </h4>
+                <p class="card-text"> Sunita Sarker 7july2021
+                </p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <!-- Articles & Tips section end here -->
+
+
+      <!-- PARTNER SECTION STARTS HERE -->
+
+      <div class="head">
+        <h1><b> Our Partners</b></h1>
+        <h6><b>We only work with the best companies around the globe</b></h6>
+
+      </div>
+
+      <section id="partner" class=" partner py-5">
+        <div class="container">
+          <div class="flex-item">
+            <div class="row">
+              <div class="col-sm-6 mb-3 mb-sm-0">
+                <div class="card text-center">
+                  <div class="card-body">
+                    <span class="partner"><i class="bi bi-buildings-fill" style="font-size: 3.5rem;"></i></span>
+                    <h5 class="card-title"><b>Real Estate</b></h5>
+                    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                    <a href="#" class="btn btn-danger">Visit More</a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-sm-6">
+                <div class="card text-center">
+                  <div class="card-body">
+                    <span class="partner"><i class="bi bi-building-fill-up" style="font-size:3.5rem ;"></i></span>
+                    <h5 class="card-title">Cityscape</h5>
+                    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                    <a href="#" class="btn btn-danger">Visit More</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+      <!-- PARTNER SECTION END HERE -->
+
+
+      <!-- AGENT SECTION STSRTS HERE -->
+      <section class="agent" class="agent py-5">
+        <div class="agent text-center">
+          <h1><b>Become a Real Estate Agent</b></h1>
+          <h6>Click here to registration</h6>
+          <div class="d-grid gap-2 col-6 mx-auto">
+            <button class="btn btn-danger" type=""><a href="contact.html"></a>Register Now</button>
+
+          </div>
+        </div>
+
+      </section>
+
+      <!-- AGENT SECTION END HERE -->
+
+
+      <!-- footer SECTION STSRTS HERE -->
+      <section class="footer" class="footer py-5">
+        <div class="footer ">
+
+          <div class="last1">
+
+            <h2><b>About Site</b></h2>
+            <h6>vWe’re reimagining how you buy, sell and rent. It’s now easier to get into a place you love. So let’s do
+              this, together.</h6>
+          </div>
+
+
+          <div class="last2">
+            <h2><b>Quick Links</b></h2>
+            Customer Support <br>
+            Silk'n Product Reviews <br>
+            Frequently Asked Questions <br>
+            User Manuals <br>
+            Returns <br>Silk'n Product Reviews <br>
+            Frequently Asked Questions <br>
+
+
+          </div>
+
+
+          <div class="last3">
+            <h2><b>Contact Us</b></h2>
+            Search <br>
+            ++0997 876 543 <br>
+            ++344 567 647<br>
+            Microderm Devices <br>
+            Cellulite Reduction <br>
+
+          </div>
+
+
+          <div class="last4">
+
+            <h3><b>Follow us</b></h3>
+
+
+            Sign up for our newsletter and be the first to know <br> about deals and special promotions. <br>
+            You can unsubscribe at any time.
+
+            <br>
+
+            <a class="icon" href="https://twitter.com/"><i class="fa-brands fa-square-twitter "></i></a>
+            <a class="icon" href="https://www.facebook.com/"> <i class="fa-brands fa-square-facebook"></i></a>
+            <a class="icon" href="https://www.instagram.com/"><i class="fa-brands fa-square-instagram"></i></a>
+            <a class="icon" href="https://www.whatsapp.com/"><i class="fa-brands fa-square-whatsapp"></i></a>
+
+
+
+
+
+
+          </div>
+
+
+
+
+
+
+        </div>
+      </section>
+
+      <!-- footer SECTION END HERE -->
+
+
+
+
+
+
+  </main>
+
+
+
+  <!-- MAIN SECTION END -->
+
+
+
+
+
+
+  <!-- Swiper JS -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+
+  <!-- Fh js -->
+  <script src="FH.js"></script>
+
+
+
+
+</body>
+
+</html>
